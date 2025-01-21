@@ -20,7 +20,8 @@ import itertools
 
 def best_hand(hand):
     "From a 7-card hand, return the best 5 card hand."
-    # Your code here
+    possibleHands = itertools.combinations(hand,5) # make all possible hands of length 5, since hands are 5 cards
+    return max(possibleHands, key=hand_rank) #return the maximum one of all those possible hands, using the determined rank as a key, since tuples are evaluated by biggest wins
     pass
     
 # ------------------
