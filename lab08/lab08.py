@@ -28,10 +28,12 @@ class OllamaEmbeddingFunction:
         self.model_name = model_name
     
     def __call__(self, input: List[str]) -> List[List[float]]:
-        """Generate embeddings for a list of texts using Ollama"""
+        """Generate embeddings for a list of texts using Ollama's embeddings API."""
+        
         response = ollama.embed(model=self.model_name, input=input)
-        embeddings = response['embeddings']
-        return embeddings 
+        embeddings = response['embeddings'] #this is how we answer the question, with mappings
+        
+        return embeddings #list of floats
 
 
 
@@ -116,22 +118,23 @@ def setup_chroma_db(chunks: List[Dict[str, Any]], collection_name: str = "dnd_kn
 
 
 def retrieve_context(collection: chromadb.Collection, query: str, n_results: int = 3) -> List[str]:
-    """
-    Retrieve relevant context from ChromaDB based on the query
-    """
-    # Generate the embedding for the query using the custom embedding function
-    embedding_function = OllamaEmbeddingFunction()
+    """Retrieve the top n_results most relevant context chunks from the ChromaDB collection."""
+    
+    embedding_function = OllamaEmbeddingFunction() #uses call from above
     query_embedding = embedding_function([query])[0]
 
-    # Perform the search in the ChromaDB collection
     results = collection.query(
         query_embeddings=[query_embedding],
         n_results=n_results,
     )
     
-    # Extract the relevant contexts from the results
-    contexts = [result['document'] for result in results['documents']]
-    return contexts
+    if "documents" in results and results["documents"]:
+        contexts = [doc for doc_list in results["documents"] for doc in doc_list]
+    else:
+        contexts = []
+
+    return contexts #answers the questions
+
 
 def generate_response(query: str, contexts: List[str], model: str = "mistral:latest") -> str:
     """
