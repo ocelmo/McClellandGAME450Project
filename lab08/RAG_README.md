@@ -79,6 +79,8 @@ lab08/
       - Refer to the [ChromaDB Retrieval API](https://docs.trychroma.com/docs/querying-collections/query-and-get) for more information
 3. run the script to see the RAG in action
 
+__Note__: *On Windows, refer https://github.com/chroma-core/chroma/issues/2513 for a bug in chromadb. Installing ChromaDB==0.5 and numpy==1.26.0 should fix the issue*. 
+
 ## References and Further Reading
 - [LangChain RAG Documentation](https://python.langchain.com/docs/use_cases/question_answering/)
 - [ChromaDB Documentation](https://docs.trychroma.com/docs)
