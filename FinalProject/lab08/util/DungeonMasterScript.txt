@@ -1,0 +1,197 @@
+import sys
+import random
+import os
+import glob
+import json
+import socket
+import threading
+import time
+from pathlib import Path
+from typing import List, Dict, Any
+
+import chromadb
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+import ollama
+
+def roll_for(skill, dc, player):
+    n_dice = 1
+    sides = 20
+    roll = sum([random.randint(1, sides) for _ in range(n_dice)])
+    if roll >= int(dc):
+        return f"{player} rolled {roll} for {skill} and succeeded!"
+    else:
+        return f"{player} rolled {roll} for {skill} and failed!"
+
+# ----- Ollama RAG Functions -----
+class OllamaEmbeddingFunction:
+    def __init__(self, model_name="nomic-embed-text"):
+        self.model_name = model_name
+
+    def __call__(self, input: List[str]) -> List[List[float]]:
+        response = ollama.embed(model=self.model_name, input=input)
+        return response['embeddings']
+
+def load_documents(data_dir: str) -> Dict[str, str]:
+    documents = {}
+    for file_path in glob.glob(os.path.join(data_dir, "*.txt")):
+        with open(file_path, 'r') as file:
+            content = file.read()
+            documents[os.path.basename(file_path)] = content
+    print(f"Loaded {len(documents)} documents from {data_dir}")
+    return documents
+
+def chunk_documents(documents: Dict[str, str], chunk_size: int = 500, chunk_overlap: int = 50) -> List[Dict[str, Any]]:
+    chunked_documents = []
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap, length_function=len)
+    for doc_name, content in documents.items():
+        chunks = text_splitter.split_text(content)
+        for i, chunk in enumerate(chunks):
+            chunked_documents.append({"id": f"{doc_name}_chunk_{i}", "text": chunk, "metadata": {"source": doc_name, "chunk": i}})
+    print(f"Created {len(chunked_documents)} chunks from {len(documents)} documents")
+    return chunked_documents
+
+def setup_chroma_db(chunks: List[Dict[str, Any]], collection_name: str = "dnd_knowledge", ollama_model: str = "nomic-embed-text") -> chromadb.Collection:
+    client = chromadb.Client()
+    embedding_function = OllamaEmbeddingFunction(model_name=ollama_model)
+    try:
+        client.delete_collection(collection_name)
+    except:
+        pass
+    collection = client.create_collection(name=collection_name, embedding_function=embedding_function)
+    collection.add(
+        ids=[chunk["id"] for chunk in chunks],
+        documents=[chunk["text"] for chunk in chunks],
+        metadatas=[chunk["metadata"] for chunk in chunks]
+    )
+    print(f"Added {len(chunks)} chunks to ChromaDB collection '{collection_name}'")
+    return collection
+
+def retrieve_context(collection: chromadb.Collection, query: str, n_results: int = 3) -> List[str]:
+    embedding_function = OllamaEmbeddingFunction()
+    query_embedding = embedding_function([query])[0]
+    results = collection.query(query_embeddings=[query_embedding], n_results=n_results)
+    if "documents" in results and results["documents"]:
+        return [doc for doc_list in results["documents"] for doc in doc_list]
+    return []
+
+def generate_response(query: str, contexts: List[str], model: str = "llama3.2:latest") -> str:
+    context_text = "\n\n".join(contexts)
+    prompt = f"""You are a helpful assistant for Dungeons & Dragons players.
+    Use the following information to answer the question.
+    
+    Context:
+    {context_text}
+    
+    Question: {query}
+    
+    Answer:"""
+    response = ollama.generate(model=model, prompt=prompt)
+    return response["response"]
+
+# ----- Dungeon Master Server -----
+class DungeonMasterServer:
+    def __init__(self, dm_hook=lambda: '', host="127.0.0.1", port=5555, countdown=10):
+        self.host = host
+        self.port = port
+        self.countdown = countdown
+        self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        self.server_socket.bind((self.host, self.port))
+        self.server_socket.listen(5)
+        self.clients = {}
+        self.game_started = False
+        self.running = True
+        self.turn_number = 1
+        self.dm_hook = dm_hook
+
+    def start_server(self):
+        print(f"[DM] Listening on {self.host}:{self.port}")
+        threading.Thread(target=self.accept_clients, daemon=True).start()
+        self.start_countdown()
+        threading.Thread(target=self.game_loop, daemon=True).start()
+
+    def accept_clients(self):
+        while True:
+            client_sock, addr = self.server_socket.accept()
+            self.clients[client_sock] = addr
+            print(f"[DM] New connection from {addr}")
+            if self.game_started:
+                client_sock.sendall(b"The game has already started!\n")
+            else:
+                client_sock.sendall(b"You joined before the countdown ended!\n")
+
+    def handle_client(self, client_sock):
+        while True:
+            try:
+                data = client_sock.recv(1024)
+                if not data:
+                    continue
+                msg = data.decode().strip()
+                if msg.lower() == "/quit":
+                    self.remove_client(client_sock, reason="Player quit.")
+                else:
+                    self.broadcast_action(client_sock, msg)
+                break
+            except ConnectionResetError:
+                self.remove_client(client_sock, reason="Connection reset.")
+                break
+
+    def remove_client(self, client_sock, reason=""):
+        if client_sock in self.clients:
+            addr = self.clients[client_sock]
+            print(f"[DM] Removing client {addr}: {reason}")
+            del self.clients[client_sock]
+        client_sock.close()
+
+    def start_countdown(self):
+        for i in range(self.countdown, 0, -1):
+            msg = f"Countdown: {i} seconds left...\n".encode()
+            self.broadcast(msg)
+            time.sleep(1)
+        print("[DM] Countdown ended.")
+        self.game_started = True
+
+    def game_loop(self):
+        print("[DM] Game loop started! Each player must respond every turn.")
+        self.broadcast(b"Game has started!\n")
+        while self.running:
+            if not self.clients:
+                print("[DM] No players left. Stopping game.")
+                self.running = False
+                break
+            turn_msg = f"\n--- TURN {self.turn_number} STARTED ---\n".encode()
+            self.broadcast(turn_msg)
+            dm_message = self.dm_hook()
+            self.broadcast(dm_message.encode())
+            client_threads = []
+            for client_sock, _ in self.clients.items():
+                thread = threading.Thread(target=self.handle_client, args=(client_sock,), daemon=True)
+                thread.start()
+                client_threads.append(thread)
+            for thread in client_threads:
+                thread.join()
+            self.broadcast(f"--- TURN {self.turn_number} COMPLETE ---\n".encode())
+            self.turn_number += 1
+            time.sleep(1)
+        self.server_socket.close()
+        print("[DM] Game loop ended. Server closed.")
+
+    def broadcast_action(self, client_sock, msg):
+        addr = self.clients.get(client_sock, "<unknown>")
+        out_msg = f"[{addr}] -> {msg}\n".encode()
+        self.broadcast(out_msg)
+
+    def broadcast(self, message: bytes):
+        for client_sock in list(self.clients.keys()):
+            try:
+                client_sock.sendall(message)
+            except OSError:
+                self.remove_client(client_sock, reason="Send failed.")
+
+# ----- Main Execution with Server Integration -----
+if __name__ == "__main__":
+    def dm_turn_hook():
+        return "Dungeon Master's guidance for this turn."
+
+    dm_server = DungeonMasterServer(dm_hook=dm_turn_hook)
+    dm_server.start_server()
