@@ -5,15 +5,11 @@ sys.path.append(str(Path(__file__).parents[1]))
 from ollama import chat
 from util.llm_utils import pretty_stringify_chat, ollama_seed as seed
 
-# Add you code below
 sign_your_name = 'Tori McClelland'
 model = 'llama3.2'
 options = {'temperature': 2, 'max_tokens': 50, 'frequency_penalty': 1.5, 'presence_penalty': -1}
 messages = [{'role': 'system', 'content': 'You should be creative and witty, like a human gamer who is passionate about DND. \
 '}, ]
-
-
-# But before here.
 
 options |= {'seed': seed(sign_your_name)}
 # Chat loop
