@@ -1,0 +1,711 @@
+Student Consultant Handbook 
+PAGE 3 
+The Computer Lab Student Consultant 
+Student Computer Lab Consultants are part-time Behrend Information Tech
+nology Services (BITS) staff members who provide first line operational and 
+technical support for lab users and owners of personal laptop or desktop 
+computers, tablets, and cell phones.  Additionally, they provide telephone 
+troubleshooting for off campus residents, and support for faculty and staff 
+member’s home computers.  
+Student Consultants are required to: 
+• Conduct themselves in a mature, professional manner at all times 
+• Abide by the posted schedule  
+• Ensure that their nametag is worn at all times while working. 
+• Be responsive to requests for assistance and provide exceptional cus
+tomer service 
+• Be courteous to their coworkers by only taking short personal breaks 
+• Cooperate and interact with all BITS staff members to ensure consistent 
+levels of support 
+• Enforce all policies and take appropriate corrective action as needed 
+• Always arrive prepared for work and not be under the influence of any 
+substance.  Failure to abide by this policy will result in immediate remov
+al from the schedule pending a meeting with Behrend Information Tech
+nology Services management.  Continued employment may require ongo
+ing support provided by the Behrend Personal Counseling office.  Stu
+dent Affairs and University Police and Public Safety will also be notified, 
+depending on the nature of the infraction.  
+• Use only prescribed or appropriate over-the-counter medications. These 
+must be administered exclusively as recommended by the manufacturer 
+or medical professional.  
+Payroll  
+Prior to the start of work, all prescribed onboarding activities outlined by the 
+HR office at University Park must be completed.  Once these are in place and 
+a Consultant reports for work, time tracking is provided by a web-based time 
+clock which is the basis for time entry into the Workday payroll system.  
+The following tutorial will assist you in the daily operation of the time clock 
+and payroll systems.  
+Electronic Time Tracking System 
+Time Clock 
+PAGE 4 
+In addition to recording your time worked in Workday, all Consultants must 
+also manually punch in-and-out at: https://ithelp.bd.psu.edu/time-clock  
+Use your time clock punch records to enter your time worked in Workday. 
+The site will resemble figure 1 below. Log-in with your UserID and Password, 
+and clock in/out at appropriate times.   
+This site is how every consultant/Restech/technician verifies the shifts they 
+work. Punctuality is important, and if there are significant discrepancies be
+tween the time clock punch report and what is submitted to Workday, some
+one (faculty or staff) will have to verify that you were onsite.  The time clock 
+system is your proof of working  Please use it carefully and consistently to 
+ensure accurate payroll processing. 
+Figure 1. 
+Recording Time Worked 
+To record your time for payroll purposes, go to: worklion.psu.edu and login 
+with your Penn State access account. Then click the Workday link on the left 
+column of the screen.  Once at the Workday screen, click on the All Apps link 
+to display a series of action icons.  See Figure 2 for an example. 
+Figure 2.  
+PAGE 5 
+Select the Time icon.  You will then see a ’calendar view’ grid that will allow 
+you to enter your time worked.  Enter your worked time for the day based 
+upon the hours recorded in the Time Clock system. Be sure to provide the 
+proper AM/PM designations.  Do not click the Review button at the bottom 
+right of the screen...only do this at the end of the two week pay period.  
+Failure to complete your time submission at the end of the two week pay peri
+od will result in you not receiving your pay when expected.   
+Operational notes 
+Payroll Report 
+Clicking on the Pay icon in Figure 2 will allow you to view pay stubs and other 
+information about your earnings. 
+Payroll Processing 
+Payday is the second Friday of each two-week pay period. 
+Your pay is determined by the number of hours you entered into the Workday 
+system, and that are verified by your time clock punches.  
+It’s your responsibility to make sure that all punches are entered accurately 
+into the time clock system and these hours are transferred into Workday.  
+Corrections will be the extreme exception.  You are in charge of managing 
+your time worked and the submission of your time at the end of the two-week 
+pay periods.  Time clock reports must closely match what’s submitted into 
+Workday. Failure to submit your time will result in an interruption of your nor
+mal pay cycle.   
+Why it matters 
+Accurate attendance records speed the payroll process and ensure that 
+you’re paid what you expected.  Consultants who are “on-time” for the start of 
+their shifts (especially the Opening shifts), ensure that our customer service 
+goals are met and the labs are ready for use 100% of the time.   Those Con
+sultants who have class immediately after a Help Desk shift are permitted to 
+leave a few minutes early in order to get to class on time.  Those who have 
+class immediately prior to a shift should make every effort to get to work in a 
+timely manner.    
+Consultant Schedules 
+PAGE 6 
+The Consultant Schedule is in effect throughout an entire semester.  A new 
+schedule is created for finals weeks and semester breaks or anytime when 
+there are no classes but Penn State Behrend is still open and the Service 
+Desk is staffed (Spring break, Thanksgiving week, the days before Christmas 
+and after New Years, etc). 
+Student Consultants are responsible for their scheduled shifts.  If you know in 
+advance that you cannot work a shift due to a test, appointment, traveling, 
+illness, etc, you can arrange for a temporary substitute or shift switch as long 
+as: 
+• The Consultant accepting your shift doesn’t exceed 24 hours worked for 
+the week or 8 hours worked in one day.  
+• An email note is sent to the Consultant taking the shift, the Consultant 
+who works prior to the changed shift, and the Service Desk IT Manager. 
+• The replacement Consultant’s name is written into the weekly schedule 
+binder located at the Hammermill Service Desk.   
+If you (or your substitute) fail to report for work, each will be issued a Critical 
+Incident Statement..  Reception of 3 statements, regardless of reason, will be 
+grounds for removal from the Consultant schedule. 
+Seek a substitute/switch as early as possible...it may take a few days for oth
+er Consultants to receive and respond to the request.  If no one responds, 
+contact the Service Desk IT Manager at least 24 hours prior to the shift. 
+If extraordinary circumstances (e.g. death in the family, sudden illness, car 
+trouble) prevent you from reporting for your shift, contact the Service Desk IT 
+Manager as soon as possible.  Never leave the Service Desk unstaffed or fail 
+to notify your supervisor of your absence…..we’ll work out something.     
+Schedule locations 
+Consultant schedules are kept out of sight in 3-ring binder found in the Ham
+mermill Service Desk overhead cabinets.  Note that there are currently two 
+Hammermill teams that are scheduled simultaneously.   
+Consultants should never give out the schedule of a co-worker.  If someone 
+asks when another Consultant works, simply provide that Consultant’s email 
+address to the person who’s asking.  A statement like: ”I can’t give out Pete’s 
+schedule information, but I can give you his email address and you can con
+tact him that way…..” could be used.    
+Why would we recommend such a procedure?   
+Service Desk Service Counter 
+PAGE 7 
+The Hammermill Service Desk Service Counter is the Student Consultant’s 
+primary duty station. Consultants should be present there throughout their 
+scheduled shifts as much as possible.  Please take short personal breaks, 
+and return from supporting lab equipment or users as quickly as possible. 
+Homework or study “guests” are allowed behind the Service Desk. They must 
+not interfere with the conduction of business or disrupt the professional 
+environment of the facility.  Its every Consultant’s responsibility to ensure 
+guest policies are followed and enforced.  
+Counter Computers 
+The computers Hammermill Service Desk PC’s are made available to:  
+•  assist users with software questions  
+•  provide a training tool for Consultants  
+•  confirm network, server, or printing problems 
+•  provide Consultants with resources to perform academic research, 
+special assignments or complete homework 
+Files should never be stored on these machines, and programs should never 
+be installed.  Unauthorized files or programs will be deleted.   
+Computer Lab Maintenance and Security 
+Periodically, Student Consultants should do a walk-through of the labs, 
+looking for and correcting policy violators, arranging chairs and equipment, 
+discarding any trash, noting damaged or inoperative equipment, and ensuring 
+that each lab is providing the same high quality environment throughout the 
+day as was available at 8:00 AM.  Walk-throughs can be conducted hourly, 
+between scheduled classes, or as the need arises.  The last Consultant to 
+staff the Service Desk should also do a “closing” walk-though to get the 
+facility ready for the next day.  In particular, printer paper should be filled at 
+closing time in all areas that feature 24/7 access (the H-135 Cyber Lounge, 
+Witkowski Food Court/Science Complex and all Burke Center printing 
+locations ….both public and Engineering).  With only the Hammermill Desk 
+being staffed daily, the Senior Consultants will need to keep watch over the 
+Burke Center  and Reed building printers.  The only remaining printer in the 
+Library is being maintained by Library staff using BITS provided supplies. If 
+someone from the Library contacts the Hammermill Service Desk with a 
+supply need, please accommodate them, or at least let the Service Desk IT 
+Manager know.   
+Policies and Procedures 
+PAGE 8 
+All lab users must follow the University’s AD-95 Information Assurance and IT 
+Security policy found at https://policy.psu.edu/policies/ad95.  Also, review and 
+become familiar with the local Behrend IT lab policies, found here:  https://
+ behrend.psu.edu/general-services/information-technology-services/public-labs/
+ public-lab-policies 
+Enforcement is mandatory and should be conducted as follows: - 1st. Violation:  Politely inform the lab user of the infraction and ask them to 
+stop. - 2nd Violation:  Politely remind the lab user of the infraction and ask them to 
+stop. -3rd Violation:  Inform the lab user that you are notifying an IT Manager and/or 
+University Police and Public Safety of the infraction.   
+Due to the casual nature of the Hammermill 135 Cyber Lounge, food is allowed 
+in this area.  All other computer lab environments do not allow food and should 
+have this policy strictly enforced.   Because shifts often overlap with lunch and 
+dinner times, Consultants may have food at the Hammermill Service Desk.  
+BITS does not provide or sell removable storage media for temporary use. 
+Unauthorized files are deleted from hard drives daily.  All lab users must supply 
+removable storage media or use their assigned network or cloud storage space
+ (s).   
+All in-lab directory and bulletin boards are solely for the use of Behrend 
+Information Technology Services.  There is a public bulletin board area 
+immediately across the hall from the Hammermill Service Desk that clubs, 
+organizations, or the general student population may use. This policy applies to 
+all non-Hammermill labs as well.  
+The Service Desk telephone is for faculty and BITS staff use.  Consultants must 
+not use this phone for personal calls as its provided for business purposes only.   
+Always politely answer the phone with something similar to: “Penn State 
+Behrend Information Technology Services.  This is (your name) speaking.  How 
+may I help you? 
+If someone calls and requests to speak to a user in the labs, politely tell them 
+that the Service Desk phone is for business use only and that you cannot relay 
+information or take personal messages for lab users.  If its an emergency, 
+suggest the caller hang up and dial 911 from their location.   
+Calls for staff members should be transferred to their extensions.  You must dial 
+their full 10-digit number during the transfer process.    
+BITS staff member’s extensions are available near the Service Desk phone as 
+well as inside the back cover of this book.  Be sure to add “814-898-” to the 
+listed extension when transferring or calling a staff member directly.  
+Lost and Found Procedures 
+PAGE 9 
+The Hammermill Service Desk is prepared for user-generated lost and found 
+articles.  Recovered items are recorded in the lost and found log found in the 
+Hammermill Desk’s overhead cabinets above the lost and found storage area.  
+Please have an item’s owner indicate in the log when they’ve reclaimed it.  
+Items of $25.00 value or greater should be recorded in the log book and 
+University Police and Public Safety (UPPS) should be alerted for an immediate 
+pick-up.  The lost and found storage area is emptied of low value items as 
+needed with collected articles being picked up and inventoried by UPPS staff. 
+Opening and Closing the Service Desk 
+Hammermill Service Desk opening Consultants are scheduled to arrive at 
+8:00 AM... Opening and closing duties are posted at the Service Desk area 
+and opening procedures must be completed prior to beginning any personal 
+activity/homework.  Closing procedures should be followed to ‘set up’ the 
+morning staff and ensure that overnight users have a positive experience.  
+Consultants can card swipe into the Hammermill Service Desk as early as 
+7:15 AM.  The Hammermill 139 and 143 doors, as well as the Nick and 
+Witkowski lab doors, will unlock electronically at 7:30 AM.   
+At the scheduled closing time, lab users in non-24/7 environments must 
+leave.  These areas include the Hammermill 139 and 143 labs, and the 
+Library 6 and Library 201 labs.  As closing time approaches it is advised to 
+give verbal notification to all users that the lab will close in X minutes.  
+Anyone who wants to continue to utilize the BITS lab resources should be 
+asked to move to a 24-hour access area.  Consultants can stay up to 15 
+minutes after the scheduled Service Desk closing time to lock up and perform 
+end-of-day tasks. 
+PAGE 10 
+Network Disk Space 
+In the computer labs and at kiosk locations, Microsoft’s OneDrive online stor
+age will connect upon log-in.  This is a synched data resource, and it behaves 
+differently than a truly mapped drive.  For example, students should check 
+their file synch status prior to logging off their computer. If their work has not 
+fully synched, any changes made during their current computing session will 
+be lost.  Its suggested that a flash drive be carried to safely store files that 
+have not synched and when a student cannot wait for the synch process to 
+complete. Additionally, if a file synch is interrupted by a log-off, the next log-on 
+will see a message pop up asking to “Restore’ or ‘Delete’ files.  Please just X 
+out this page and continue on.   
+Lab Reservations 
+Ad-hoc (i.e. one time or non-full semester) public computer lab reservations 
+are processed through the CollegeNet/25Live central reservation utility.  Only 
+faculty, faculty sponsored organizations, the Workforce Development office 
+and the Learning Resource Center (LRC) may reserve labs for instructional 
+purposes using the CollegeNet system.  Student requests for a computer lab 
+reservations will be denied and a sponsoring faculty member must resubmit. 
+All reservations must be approved by BITS staff.  If someone approaches a 
+Help Desk and needs to place a lab reservation, please direct them to the 
+CollegeNet web site, found at:  https://25live.collegenet.com/pro/psu#!/
+ Access Accounts 
+Every Penn State faculty member, staff member, or student, receives an Access 
+Account.  Each account consists of a unique User ID and a Password which is 
+set during the account activation and retrieval process.  Access Accounts grant 
+the account holder access to the full array of University on-line services.  All 
+accounts are generated at the University Park campus.  For students, Access 
+Account User ID’s are retrieved and Passwords are set during their admission 
+process.  For more information about Access Accounts visit the Accounts page 
+at UP at: https://accounts.psu.edu. 
+Other Access Account thoughts: -Users are held accountable for adherence to all applicable policies (see policy 
+AD-95) upon completion of the account retrieval process.     -Passwords can be changed at the accounts.psu.edu web page.   -A user who forgets their Password can “reset” it by visiting https://
+ accounts.psu.edu/password/forgot -Account holders who get locked out (as confirmed on the DIMC screen, see 
+page 11), must call the University Park campus for assistance.  Phone 814-865
+4357.  
+Access Account / Appropriate Use 
+The following statement should be considered re: lab computers: 
+“Use of this computer workstation indicates agreement and adherence to Penn
+sylvania State University Policy AD-95 that governs  Access Account, computer, 
+and information network utilization.  Account holders must use their privileges 
+only for the purpose for which they were intended and must not engage in view
+ing, transmitting, or making accessible offensive, obscene or harassing materi
+als.  Failure to abide by the provisions of this policy may result in sanctions up to 
+and including suspension of Access Account privileges,  judicial review, and/or 
+expulsion.”  
+Consultants who witness inappropriate PC activity must advise the user to im
+mediately cease their actions.  Report the problem to the Service Desk IT Man
+ager and include the following information:  Date, time, lab number, and work
+station ID.  Do not ask the student for their name, User ID, etc. 
+Access Account timelines:   
+• Access Accounts fully activate just prior to a freshman students’ New Stu
+dent Orientation session.  Access to higher level functions (email, Lionpath) 
+will not be available until this activation occurs.   
+• Access to PSU resources will gradually expire upon separation or gradua
+tion.  See this page for details:  https://security.psu.edu/services/penn
+state-accts/after-i-leave/   
+Never respond to email messages that request Access Account or email account 
+credential verification and submission.  Report messages of this nature to: 
+phishing@psu.edu 
+Student access account passwords will expire after their first year of classes.  
+When they reset them, they’ll be creating a ‘lifetime password’.  Special care 
+should be taken to ensure that the password or pass phrase that’s selected is a 
+strong as possible.  Visit: https://security.psu.edu/services/penn-state-accts/
+ passwords/choose/    for more details.  
+Digital Identity Management Center (DIMC)  
+All Consultants will be granted limited access to the Digital Identity Manage
+ment Center (https://dimc.psu.edu) screen once the required training is com
+pleted.  
+Obtaining this access is a MANDATORY requirement of a Consultant as the 
+data provided by this resource can streamline or guide a troubleshooting 
+process. 
+This process is currently under review.  If you need DIMC access, please alert 
+the IT Service Desk manager. 
+DIMC will display a User’s Access Account User ID, their PSU ID number, and 
+their account status (active/blocked/locked/etc.) among other data.  All infor
+mation shown on this page should be kept strictly confidential.   
+PAGE 12 
+Trouble Ticket System 
+BITS equipment problems (this includes the lab computers, kiosks, and tech
+nology classroom podium computers) should be reported at the 
+behrend.psu.edu/ithelp site.  (All lab and Help Desk computers also have a 
+Tech Help shortcut icon that takes you to the /ithelp site). 
+Select the appropriate support category, and fill out the resulting form as 
+completely as possible, providing specific information about the nature of the 
+problem.  If necessary, use an adjacent computer or your phone to complete 
+the ticket. Printer paper jams should be cleared, and basic troubleshooting 
+(checking cables, rebooting, etc.) should be performed prior to submitting a 
+trouble report and placing an out of order tag on the affected piece of equip
+ment.   
+Residence Hall Network support is provided by the Residence Hall Network 
+Help Desk staff who work out of the Hammermill building.  ResTechs work 
+hand-in-hand with Help Desk Consultants to provide support for our on
+campus residents.  All calls for support should be directed to the 814-217
+4357 number.  Online requests for support will use the a similar reporting 
+method as the computer labs...simply browse to the ’Student’ category at the 
+Behrend.psu.edu/ithelp page and then select Residence Hall Students.  
+Laser Printers 
+Student accessible black and white laser printers are available in many loca
+tions across campus with most printer locations supporting a variety of adja
+cent spaces. This reduces our printer ‘footprint’, minimizes upkeep and li
+censing costs, and helps Behrend ITS align its printing resources with an ever 
+decreasing student need.  Each printer is connected to the Pharos Uniprint 
+system, each print job is tabulated by this system, and students are charged 
+5 cents per page after they’ve exceeded our pre-established ‘free print’ 
+threshold of 100 pages per semester.  The Pharos system also provides for 
+‘mobile printing’ from a phone, tablet, or laptop.  Visit https://
+ uniprint.bd.psu.edu to upload and print a document from a mobile device.  
+Visit this page for a list of mobile print locations:  https://behrend.psu.edu/
+ general-services/information-technology-services/public-labs/mobile-printing 
+Color printers are provided in the Hammermill 135 lab and at the Burke First 
+Floor Print Station.  Each color page of paper processed by these printers 
+costs 15 cents.   
+Printer paper should be checked at the start of the day, as needed through
+out the day, and at closing time.  Please keep the Hammermill 135 Service 
+Desk “under counter” paper supply well stocked.  Additional cases of paper 
+as well as replacement toner cartridges are found in the Computer Center’s H-134a storeroom adjacent to the Hammermill Help Desk.   
+PAGE 13 
+BITS staff home and cell phone numbers are posted inside the front of each 
+Help Desk’s schedule binder and on the trouble escalation flow chart. These 
+numbers are for BITS emergency use only and should never be given out.  If 
+a situation merits an after hours call to a staff member, please don’t 
+hesitate.   
+Emergency Procedures 
+Each building has designated staff who are Building Emergency Evacuation 
+Plan (BEEP) coordinators.  In the event of a building evacuation emergency, 
+these staff members will provide direction to the building’s occupants and 
+coordinate with EMS personnel any special evacuation needs, entrapment 
+reports, or other issues.  After normal staff hours (typically, 8—5), 
+Consultants will be responsible for evacuating the facilities immediately 
+adjacent to the Hammermill Service Desk location.  
+In the event of a fire alarm, or upon the advice of Police and Safety, Campus 
+Administration, or any staff member,  announce to the users present in the 
+labs that everyone needs to leave through the nearest exit.  Lab users should 
+be asked to take their personal belongings with then.  Quickly check that 
+everyone has left the labs and exit the building yourself.  If the situation is so 
+severe that your personal safety is in jeopardy, (for example, you see smoke 
+or flames, or there's an explosion, active shooter, etc, ) make the evacuation 
+announcement and quickly exit the building (“Everyone needs to get out 
+NOW’ will suffice).  
+Situations involving irate lab users, individuals making threatening remarks 
+(i.e. bomb threats), the presence of any weapon (see Policy SY12 at the 
+GURU site), or any situation requiring Emergency medical or Police services 
+(i.e. upon entering a lab you discover vandalism, theft etc), immediately call 
+Penn State Behrend Police Services at  “911” or X6101. 
+Never attempt to resolve an out of control situation.  Alert Police Services 
+and they’ll respond to your area.     
+In an active shooter  situation... an armed person who has used deadly physical force 
+on other persons continues to do so while having unrestricted access to additional 
+victims."  
+                                          
+                                                Penn State StaySAFE:   
+ 
+                                   Search for an Exit 
+                                   Alert the Authorities  
+                                   Find a place to Hide 
+                                   End the Threat 
+ 
+Staff Home Phone Numbers 
+Special Services  -  Software Distribution 
+The BITS Help Desks are Behrend’s support centers for software provided at 
+no additional charge to the campus community. 
+Users can visit https://softwarerequest.psu.edu to ’order’ a variety of 
+software titles relevant to their studies.  Requests are placed and within 24 
+hours an email is received that includes additional instructions.  
+Students and faculty can also obtain Microsoft software through Penn State’s 
+Azure Dev Tools program.  Visit https://azureforeducation.microsoft.com/
+ devtools. Click the sign-in link and provide your PSU access account 
+credentials and your cell phone number. 
+Software purchases can be made through Penn State via the  http://
+ software.psu.edu site.  All prices feature educational discounts.  
+Students also have access to Microsoft Office365 at office365.psu.edu. 
+Through Office365, email, office productivity software, team building apps, 
+and online storage are all available at no extra cost.    
+Personal Computer Support 
+Consultants at the Hammermill Service Desk can expect to work on student 
+and faculty/staff personal computers.  This service is offered at no additional 
+charge and typically involves troubleshooting and correcting software 
+issues……...installing OS updates, antivirus software and anti-spyware 
+programs as well as removing viruses, spyware etc.   Users who have been 
+‘locked out’ by UP due to a personal computer security compromise can visit 
+the Hammermill desk for a complete hard drive format and OS re-install.  
+Consultants will carefully back-up data, music, and photos, and restore them 
+when the OS work is completed. Hardware troubleshooting is also performed; 
+if a defective component is localized on a computer, and the owner provides 
+replacement parts, Help Desk Consultants will assist with the installation.  
+Never perform invasive diagnostics or repairs on computers still under 
+manufacturer warranty. Please involve the Service Desk IT Manager prior to 
+making replacement part recommendations to the computer owner; we want 
+to be very sure that we’re providing the student with accurate replacement 
+part information.   
+Always submit a fully completed SNOW Drop Off ticket using the link provided 
+at the Teams site and the paper form at the Service Desk counter.  Make sure 
+the owner signs off on the Device Drop-off Authorization form and provides 
+the requested password and PIN information.  
+Portable Document Cameras 
+The Hammermill Service Desk has a portable document camera available for 
+lend to faculty and staff on a ’one-day-at-a-time-basis’.  This device and sign
+out form is stored in the cabinetry above the Service Desk’s Technician 
+counter.   
+PAGE 15 
+Non-Hammermill Computer Lab Support 
+Behrend Information Technology Services supports a variety of computer 
+lab environments outside of the immediate Hammermill complex.    
+“Decentralized’ labs that are the responsibility of BITS include Nick 156, 
+Witkowski 109, Library 6, Library 201, Kochel 77, Burke 153, Burke 175 
+and Burke 176, which are all public labs.  Additionally, the following 
+School of Engineering labs are also supported:  Burke 007, Burke 008, 
+Burke 011, Burke 012,  Burke 013, Burke 014, Burke 015, Burke 111, 
+Burke 140, Burke 146, Burke 147, Burke 148, and Burke 151. Smaller 
+specialized labs in the Schools of Engineering and Science will require 
+periodic BITS maintenance; typically this includes equipment cleaning, 
+component replacements, and yearly software reloads.   
+All lab or classroom computer and A/V device issues should be reported 
+via the IT Support Request link: https://behrend.psu.edu/ithelp.  All trou
+bleshooting, out-of-order tagging, and trouble-ticket submission proce
+dures that are in place in the Hammermill labs carry over to these outlying 
+facilities.     
+An additional large number of School of Engineering (SOE) and School of 
+Science satellite machines are distributed throughout the Burke Center 
+and School of Science complexes.  These are not the responsibility of the 
+Consultants and will be maintained by BITS staff members and Student 
+Technicians.  All requests for service on these computers should also be 
+submitted via the IT Support Request link.       
+Policies and procedures that are in place in the Hammermill labs are also 
+in effect in the outlying labs; the exception being that some faculty allow 
+food in the instructional SOE labs.  
+Outlying west campus labs have been included on the Computer Lab 
+Cleaning Schedule that is posted at the Hammermill Service Desk.   
+Why is cleaning important?   
+PAGE 16 
+Student Consultant Orientation 
+Program 
+The following pages contain the Penn State Behrend Student Consultant Ori
+entation Program.  Module 1 of this program consists of the topics covered in 
+the handbook section on the previous pages.  The first item in the Training 
+Program is the Module 1 test, which helps you determine your strengths and 
+weaknesses concerning the topics covered in this Handbook segment.   
+Succeeding modules follow a similar format.     
+Student Consultant Orientation 
+Module 1 test - Consultant Handbook Topics 
+1. Which of the following is the proper procedure if you have forgotten to 
+record your time on Workday at the end of your shift? 
+A) Don’t worry about it, they all know my schedule and will fix it. 
+B) I’ll record my hours the next day that I work.   
+C) They don’t need to know exactly when I worked. 
+D) I’ll visit the Workday site and in the Time category calendar field, 
+enter my time worked as reflected by the Time Clock punch in/
+ punch out sequence.  
+2.  
+When indicating my semester availability, I should: 
+A) Put down available times that I’m not sure of, just to make sure I get 
+lots of hours. 
+B) Put down available times that won’t last the entire semester. 
+C) Put down available times that conflict with my class/lab schedules. 
+D) Carefully reference my class, work, family, and recreational sched
+ules and mark myself as available only during those times that I can 
+commit to for the entire semester. 
+3. Access Accounts: 
+A) Are created and distributed by Behrend ITS 
+B) Are only given to those who ask for one.  
+C) Provide limited access to University resources 
+D)     Are created and distributed by UP.  
+E)     
+F)     
+Never expire.  
+None of the above. 
+ 
+      
+Student Consultant Orientation 
+Module 1 test (cont.) 
+ 
+ 
+4. Students who’s files have not fully synched with One Drive upon starting 
+to log-off: 
+A) Should contact the Hammermill Service Desk 
+B) Should submit a work order request. 
+C) Should see the BITS Administrative Assistant. 
+D) Should see their academic advisor. 
+E) Should copy their recently edited files to a flash drive so they can 
+get logged-off and on their way.  
+ 
+5. The Hammermill Service Desk telephone should be used: 
+A) By faculty, BITS staff, and Consultants, only. 
+B) By anyone needing a phone. 
+C) For on-campus calls only. 
+D) By Consultants only. 
+E) Who needs phones? We’ll just use Teams… 
+F) A and E. 
+ 
+6. Free software provided by Penn State: 
+A) Can be obtained by any member of the Behrend community. 
+B) Can be obtained only by faculty and staff. 
+C) Is available only to students. 
+D) Is available at https://softwarerequest.psu.edu 
+E) A and D. 
+ 
+7. Daily support for the non-Hammermill computer labs/printers 
+         A)  Is provided by School of Engineering staff 
+         B)  Will be provided by BITS staff members/Senior Consultants 
+         C)  Doesn’t require the use of BD IT Support Requests. 
+         D)  Is never needed.  
+          
+8. Out of control situations: 
+A) Should be ignored until things calm down. 
+B) Should be handled by the Consultant(s) on duty. 
+C) Are the responsibility of the Service Desk IT Manager. 
+D) Should be handled by Police Services.  Dial 911 
+ 
+9. Lost and found items greater that $25.00 in value: 
+A) Should be sold at the first opportunity. 
+B) Should be logged in the lost and found book and placed in the lost 
+and found storage area. 
+C) Are never found in the labs. 
+D) Should be logged in the lost and found book and Police Services 
+staff should be notified for a pick-up.  
+ 
+ 
+PAGE 18 
+Student Consultant Orientation  
+Module 2   
+The General Electric Foundation Computer Center is located on the top 
+(first) floor of the Hammermill Building and is home to the Behrend Infor
+mation Technology Services (BITS) staff.  Consisting of 3 labs within Ham
+mermill, as well as our primary server room and a series of offices, the Com
+puter Center is the hub for all IT support on campus.   
+The Hammermill 135 Cyber Lounge includes 26 public workstations, a high 
+high-volume black and white printer, a color laser printer, a phone/tablet 
+charging stand, dual overhead LCD TV’s, wide screen monitors, cold drink 
+vendor, and 24/7 access.  This lab is also adjacent to our Hammermill Ser
+vice Desk that’s staffed by Consultants and features a Technician Service 
+area.  The Hammermill 139 lab which seats 16 is located off of H-135, and is 
+an instructional/seminar lab, available for reservation by members of faculty 
+for class-time use or by staff for training seminars.  H-139 features a facing 
+forward environment suitable for a variety of instructional or seminar activi
+ties.   Hammermill 143 (35 seats) is also available for reservation and is 
+across the corridor from the Hammermill Service Desk and is used heavily for 
+typical class time work.  
+In the absence of full time staff, Consultants should always document a facul
+ty or staff caller or walk-up client in the SNOW ticketing system.  If the prob
+lem is immediately resolved, an ‘Interaction’ ticket should be entered to docu
+ment the client contact.  If the problem is unresolved,  submit an Incident 
+ticket from the Behrend.psu.edu/ithelp site.  
+Also, always know who your client is by asking:  Are you a faculty member, 
+staff member, or a student?  This will help determine to what extent the Ser
+vice Desk  student staff can provide immediate assistance, AND help the 
+Consultant to pick the correct category at the /ithelp site to report the issue. 
+BITS is organized as follows:  Jim Serafin is the overall Director of the IT sup
+port operation. He oversees BITS staff members, monitors the daily operation 
+of our computer labs and the on-campus information networks, participates 
+in the design and implementation of new learning spaces and staff areas, 
+and coordinates research, special projects and new initiatives.  
+These staff members report to Jim: 
+Kiara Copeland is the BITS Administrative Assistant.  She provides general 
+office services, submits work orders into the SNOW system, oversees all pay
+roll preparations, develops digital sign slides, tracks all BITS budgets, and 
+coordinates all BITS equipment purchases, among other things! 
+Jason Artello is our Network Systems Specialist providing support for the en
+tire campus network as well as filling the role of a remote support technician 
+for the Enterprise Networking and Communication Services Office (ENCS) at  
+UP.    
+Shawn Alexander and Nick Scott are Systems Analysts who manage staff and 
+faculty servers and create desktop environments. Shawn and Nick also devel
+op unique solutions for complex support requests from all members of the 
+campus and University community, coordinate our security response and 
+manage our web presence.  
+John Praetzel is our Auxiliary Systems Analyst who handles security, telepho
+ny, monitoring of building support equipment and other miscellaneous sys
+tems.  He is also part of the classroom rapid response team when problems 
+arise that will impact instruction or presentations.  
+Nick Silka is an IT Manager who oversees our faculty, staff, research, and 
+instructional environment support. His staff includes Scott Smith, Michelle 
+Newcomb, and Ken Mason.  Scott and Michelle’s offices are located in H
+137.  Ken has offices in both Hammermill 141 and Burke 010. 
+These analysts and technicians, along with our Student Consultants, provide 
+hardware and software support for our students, our classroom and lab tech
+nology, and audio / visual and video conferencing equipment and related 
+areas.   
+Other spaces of interest in the Computer Center building include the Ham
+mermill server room, the 134A office supply storeroom, the H-140 system set
+up room, the H-130D storeroom, and the H-130B and H-130C Conference 
+Rooms. 
+The Hammermill server room is found in H-136.  This area houses our re
+maining on-site server units,  “hot swappable” spares, pools of Weblabs com
+puters, and small workbench areas.  
+The H134A office supply storeroom is located immediately adjacent to the 
+Hammermill Service Desk.  It contains paper and toner for use in the BITS 
+labs, our Technician desk computer storage cabinet, and a desk area for our 
+Residence Hall Network Technicians.   
+The H-140 set up room is a dedicated area for staff to prepare new or rebuilt 
+computers for deployment to lab and office locations.   
+Located in the H-130 office suite, the H-130D storeroom contains a variety 
+general office supplies….staples, paperclips, pens, folders, etc.   
+The H-130B meeting room contains seating for up to 6 and is called our 
+‘huddle room’.  Its often used as a sand-box like environment where BITS 
+staff can test out new technologies prior to deployment on campus. 
+H-130C is our larger conference room with seating for up to 18, and has a 
+small kitchenette with a toaster oven and refrigerator.  Consultants are wel
+come to use the kitchen facilities to refrigerate or warm meals.   
+Please note that this area may not be accessible to student staff in the even
+ing hours. 
+Student Consultant Orientation 
+             Module 2 Test 
+ 
+ 
+1. The BITS offices are located in: 
+         A) The Wabtech Foundation Computing pavilion. 
+         B) The GE Foundation Computer Center. 
+         C) The Hammermill Building's ground floor. 
+         D) The Hammermill Building’s first (upper) floor. 
+         E)  B and D. 
+ 
+2.    Computer support in faculty offices is provided primarily by: 
+         A)  The staff assistant in the respective department 
+         B)  Student Technicians 
+         C)  Members of the Nick Silka’s support group 
+         D)  None of the above 
+         E)  B and C. 
+ 
+3. A call comes into a Consultant Help Desk from a member of  
+        faculty, staff, or administration.  You cannot resolve the problem. 
+        You should: 
+         A) Panic, and run screaming out into the night.  
+         B) Give the caller a tech support web address 
+         C) Transfer the call to the Service Desk IT Manager.  
+         D) Transfer the call to the BITS Administrative Assistant 
+         E)  Submit an IT Support Incident ticket on the caller’s behalf to 
+              document the problem in the Service Now incident tracking system.  
+              Use the https://behrend.psu.edu/ithelp page and select a topic 
+              from the “I need help in My Office” area.  
+ 
+4. Additional cases of paper for the BITS lab laser printers      
+        are stored: 
+         A) At the maintenance garage, call them for more 
+         B) At the Copy and Print Center (CPC), call them for help 
+         C) In the Computer Center H134a Supply Storeroom, help yourself 
+         D) I guess we’re just “out”.  Sorry 
+ 
+          
+PAGE 20 
+Student Consultant Orientation Module 3  
+Network connectivity in the Residence Halls is provided exclusively via a pair 
+of wireless networks.   
+Phones, tablets, laptops and any other device that CAN connect to the PSU 
+WiFi SSID….MUST connect to that resource.   
+All other iOT devices, such as gaming consoles, smart TV’s, personal assis
+tants, etc, MUST connect to the RoomGear network.  Note:  Google Home 
+devices are not compatible with the RoomGear resource.  
+Visit: https://roomgear.psu.edu 
+Click on the “Register your roomgear here” button and log-in with your Access 
+Account User ID and Password.  Select “Create Device” and fill out the fields 
+for Owner Name (PSU  Login ID. Ex: abc123), Device Name, and MAC Address 
+and click on “Create Device”. 
+Note that with RoomGear, once a device is registered, it will immediately con
+nect in any Residence Hall location that has that network available.  You can 
+move a device between rooms or between buildings, seamlessly.  
+As mentioned above, laptops, phones, and tablets that CAN connect to PSU 
+WiFi MUST connect to PSU Wifi.  Although they can be registered in 
+RoomGear, they will not have access to the network.  
+When on the RoomGear network, your device will need to have DHCP enabled 
+to receive network information from Penn State.  If you need to configure your 
+iOT device for DHCP access, we recommend that you refer to your device’s 
+manufacturer’s web site for instructions.    
+Residence Hall Network Help Desk Support 
+Residence Hall Network support is provided by the Residence Hall Network 
+Technicians (ResTechs) who work out of the Hammermill building.  ResTechs 
+work hand-in-hand with Help Desk Consultants to provide support for our on
+campus residents.  All calls for support should be directed to the 814-217
+4357 number.  Online requests for support will use the behrend.psu.edu/
+ ithelp web page.  In the Student category, select Residence Hall student and 
+complete the form.  See Module 6 for more SNOW details.   
+Due to the limited availability of the ResTechs, Student Consultants should 
+feel comfortable assisting on-campus residents with their connectivity or gen
+eral computer problems.  Please be sure to carefully document the problem 
+in any related SNOW ticket as well as any attempted corrective measures so 
+the ResTechs can easily pick-up where the Consultants have left off.   
+ResTechs work M-Th, 6:00 PM—9:00 PM and have a daily duty list that in
+cludes a walk-through of all buildings that have printers, lab environments, or 
+collaborative work stations. During these walks, the environments will be 
+inspected, printer paper checked and filled as needed, and SNOW tickets will 
+be generated for any device found offline, damaged, or otherwise in need of 
+support.  In-room student support visits will be coordinated with the client 
+during the Tech’s working hours.  
