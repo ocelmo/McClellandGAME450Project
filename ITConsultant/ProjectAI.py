@@ -8,17 +8,13 @@ from pydub.playback import play
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import chromadb
 import os
+import pyttsx3
 import ollama
-from PyPDF2 import PdfReader
+import logging
 import warnings
-warnings.filterwarnings("ignore", message=".*tensor.storage.*")
 
-# Initialize the SpeechT5 model and processor for text-to-speech
-processor = SpeechT5Processor.from_pretrained("microsoft/speecht5_tts")
-model = SpeechT5ForTextToSpeech.from_pretrained("microsoft/speecht5_tts")
-vocoder = SpeechT5HifiGan.from_pretrained("microsoft/speecht5_hifigan")
-embeddings_dataset = load_dataset("Matthijs/cmu-arctic-xvectors", split="validation")
-speaker_embedding = torch.tensor(embeddings_dataset[0]["xvector"]).unsqueeze(0)
+# Suppress warnings for better readability
+warnings.filterwarnings("ignore", message=".*tensor.storage.*")
 
 # Define chatbot agents with different parameters
 agents = {
@@ -43,6 +39,16 @@ agents = {
         "max_tokens": 50
     }
 }
+
+# Function to initialize pyttsx3
+def initialize_tts_engine():
+    """
+    Initializes the pyttsx3 text-to-speech engine.
+    """
+    engine = pyttsx3.init()
+    # Adjust speech rate, voice, etc., as needed
+    engine.setProperty("rate", 150)  # Sets speech rate to a reasonable pace
+    return engine
 
 # Function to generate a random ticket number
 def generate_ticket_number():
@@ -88,11 +94,12 @@ def load_and_chunk_document(file_path, chunk_size=500, chunk_overlap=50):
         return []
 
     try:
-        with open(file_path, 'r', encoding='utf-8') as file:  # Specify UTF-8 encoding
+        with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
     except UnicodeDecodeError as e:
-        print(f"Error decoding file {file_path}: {e}")
-        return []
+        print(f"Error decoding file {file_path}: {e}. Attempting with 'ignore' mode.")
+        with open(file_path, 'r', encoding='utf-8', errors='ignore') as file:
+            content = file.read()
 
     if not content.strip():
         print("Error: No content was found in the file. Ensure it contains readable text.")
@@ -104,7 +111,6 @@ def load_and_chunk_document(file_path, chunk_size=500, chunk_overlap=50):
         for i, chunk in enumerate(text_splitter.split_text(content))
     ]
     return chunks
-
 
 # Set up ChromaDB for RAG
 def setup_chroma_db(chunks, collection_name="handbook_knowledge"):
@@ -132,31 +138,16 @@ def retrieve_context(collection, query, n_results=3):
     results = collection.query(query_texts=[query], n_results=n_results)
     return [doc for doc_list in results.get("documents", []) for doc in doc_list]
 
-# Function to play audio using PyDub
-def text_to_speech(text):
+# Updated text-to-speech function using pyttsx3
+def text_to_speech(text, tts_engine):
     """
-    Converts text to speech and plays the audio.
-    Handles sequence length to avoid runtime errors.
+    Converts text to speech and plays the audio using pyttsx3.
     """
-    MAX_SEQUENCE_LENGTH = 600
-    truncated_text = text[:MAX_SEQUENCE_LENGTH]
-
-    # Process the truncated text
-    inputs = processor(text=truncated_text, return_tensors="pt")
     try:
-        speech = model.generate_speech(inputs["input_ids"], speaker_embedding, vocoder=vocoder)
-        audio_file = "response.wav"
-
-        # Save the speech to file
-        with open(audio_file, "wb") as f:
-            f.write(speech.numpy().tobytes())
-
-        # Play the audio using PyDub
-        sound = AudioSegment.from_wav(audio_file)
-        play(sound)
-
-    except RuntimeError as e:
-        print(f"Error during text-to-speech generation: {e}")
+        tts_engine.say(text)  # Queue the text for speaking
+        tts_engine.runAndWait()  # Speak the queued text
+    except Exception as e:
+        print(f"Error during text-to-speech: {e}")
 
 # Function to select an agent
 def select_agent():
@@ -168,6 +159,8 @@ def select_agent():
 
 # Main chat loop
 def main():
+    tts_engine = initialize_tts_engine()  # Initialize pyttsx3 engine
+
     handbook_path = "c:/Users/labadmin/McClellandGAME450Project/ITConsultant/handbook.txt"  # Use plain text file
     handbook_chunks = load_and_chunk_document(handbook_path)
 
@@ -196,13 +189,13 @@ def main():
         elif "ticket number" in user_input.lower():
             ticket_number = generate_ticket_number()
             print(f"Agent: Your ticket number is {ticket_number}.")
-            text_to_speech(f"Your ticket number is {ticket_number}.")
+            text_to_speech(f"Your ticket number is {ticket_number}.", tts_engine)
             continue
         elif "password strength" in user_input.lower():
             password = input("Enter your password for evaluation: ")
             strength = password_entropy(password)
             print(f"Agent: {strength}")
-            text_to_speech(strength)
+            text_to_speech(strength, tts_engine)
             continue
         elif "consultant handbook" in user_input.lower():
             context = retrieve_context(collection, user_input)
@@ -211,9 +204,9 @@ def main():
 
         messages.append({'role': 'user', 'content': user_input})
         response = ollama.chat(model=model, messages=messages, stream=False, options=options)
+
         print(f"Agent: {response.message.content}")
-        text_to_speech(response.message.content)
-        messages.append({'role': 'assistant', 'content': response.message.content})
+        text_to_speech(response.message.content, tts_engine)
 
 if __name__ == "__main__":
     main()
